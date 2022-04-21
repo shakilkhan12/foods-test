@@ -1,6 +1,8 @@
-document.addEventListener('load', function() {
-    console.log('Yes sir')
-})
+const loader = document.querySelector('.loader');
+window.addEventListener("load", function(){
+    loader.classList.add('hidden');
+    //everything is fully loaded, don't use me if you can use DOMContentLoaded
+});
 const nav = document.getElementById('nav');
 const open = document.getElementById('open');
 const close = document.getElementById('close')
