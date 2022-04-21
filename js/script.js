@@ -1,3 +1,6 @@
+document.addEventListener('load', function() {
+    console.log('Yes sir')
+})
 const nav = document.getElementById('nav');
 const open = document.getElementById('open');
 const close = document.getElementById('close')
